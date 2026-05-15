@@ -5,7 +5,7 @@ import { useState, useEffect, useCallback, useRef } from "react";
 //  For local dev create .env with VITE_SUPABASE_URL etc.
 // ══════════════════════════════════════════════════════
 const SB_URL  = typeof __SB_URL__  !== "undefined" ? __SB_URL__  : "https://rsuvfbcpribrmkbveiyp.supabase.co";
-const SB_KEY  = typeof __SB_KEY__  !== "undefined" ? __SB_KEY__  : "sb_secret_Kw2r-yFd-LgtbYYJdrhMag_l1aZReM2";
+const SB_KEY  = typeof __SB_KEY__  !== "undefined" ? __SB_KEY__  : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJzdXZmYmNwcmlicm1rYnZlaXlwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg2NzM0MjksImV4cCI6MjA5NDI0OTQyOX0.w76osoCdCN_Jkjge-fhZTHB7XUUM_vVTsFrt-CYCdfo";
 
 // Minimal Supabase REST client (no SDK needed — works in any React env)
 const sb = {
